@@ -1,2 +1,5 @@
 .history
 .compiled
+
+node_modules/
+package-lock.json
