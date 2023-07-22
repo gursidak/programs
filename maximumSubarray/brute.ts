@@ -1,6 +1,7 @@
+
 /*  -------- This is O(n²) method -------- */
 
-function maxSubArray(nums: number[]): {
+export function maxSubArray(nums: number[]): {
   maxSum: number;
   maxSumSubArray: number[];
 } {
@@ -31,6 +32,6 @@ function maxSubArray(nums: number[]): {
   return { maxSum, maxSumSubArray };
 }
 
-const res = maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]);
+const res = maxSubArray([-2, -1, -3, -4, -1, -2, -1, -5, -4]);
 
 console.log(res);
